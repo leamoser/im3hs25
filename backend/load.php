@@ -6,7 +6,7 @@ $data = include('transform.php');
 $data = json_decode($data, true);
 
 // -> datenbank zugangsdaten einbinden
-require_once 'config.php';
+require_once '_config.php';
 
 // -> verbindung mit der datenbank
 try {
