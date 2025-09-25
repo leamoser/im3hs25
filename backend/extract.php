@@ -12,7 +12,6 @@ function fetchWeatherData() {
     return json_decode($response, true);
 }
 
-
 // -> fetch von api, welche passant:innen daten zurückgibt
 function fetchPassengerData() {
     $url = "https://daten.stadt.sg.ch/api/explore/v2.1/catalog/datasets/fussganger-stgaller-innenstadt-vadianstrasse/records?order_by=measured_at_new%20DESC&limit=1";
