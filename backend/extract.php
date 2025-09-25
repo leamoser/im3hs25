@@ -25,7 +25,7 @@ function fetchPassengerData() {
     return json_decode($response, true);
 }
 
-
+// -> daten zurückgeben
 return [
     'weather' => fetchWeatherData(),
     'passengers' => fetchPassengerData()

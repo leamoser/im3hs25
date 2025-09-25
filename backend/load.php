@@ -1,5 +1,6 @@
 <?php
 
+// -> daten als json laden
 $data = include('transform.php');
 
 // daten in einen array umwandeln
