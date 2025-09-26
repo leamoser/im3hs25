@@ -1,13 +1,10 @@
 <?php
 
 // -> daten als json laden
-$data = include('transform.php');
-
-// daten in einen array umwandeln
-$data = json_decode($data, true);
+$data = include('02_transform.php');
 
 // -> datenbank zugangsdaten einbinden
-require_once '_config.php';
+require_once '../config.php';
 
 // -> verbindung mit der datenbank
 try {
